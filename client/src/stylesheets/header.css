@@ -1,0 +1,14 @@
+#header {
+    background-color: #d3d3d3;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+#header > h3 {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}

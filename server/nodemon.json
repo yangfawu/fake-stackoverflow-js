@@ -1,0 +1,4 @@
+{
+    "ignore": ["reset_db.js"],
+    "delay": 1000
+}

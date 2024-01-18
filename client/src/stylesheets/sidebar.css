@@ -1,0 +1,29 @@
+#main > .sidebar {
+    flex: 1;
+    max-width: 200px;
+    box-sizing: border-box;
+    border-right: dotted 3px black;
+}
+
+#main > .sidebar > .tab {
+    margin: 32px 0;
+    font-size: 1.1rem;
+    padding: 16px;
+    text-align: center;
+    color: #325bc2;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#main > .sidebar > .tab:hover {
+    background-color: #eee;
+}
+
+#main > .sidebar > .tab.active {
+    background-color: #ccc;
+}
+
+#main > .sidebar > .tab.active:hover {
+    background-color: #ddd;
+}

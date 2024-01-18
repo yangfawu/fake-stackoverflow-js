@@ -1,0 +1,130 @@
+#main > .root.home {
+  padding-bottom: 32px;
+}
+
+#main > .root.home > div {
+  border-bottom: dotted 3px black;
+}
+
+#main > .root.home > .question-header {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#main > .root.home > .question-header > div:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+#main > .root.home > .question-header > div:first-of-type > h4 {
+  margin: 0;
+}
+
+#main > .root.home > .question-header > div:last-of-type {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#main > .root.home > .question-header > div:last-of-type > h5 {
+  margin: 0;
+}
+
+#main > .root.home > .question-header .filters {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#main > .root.home > .question-header .filters > button {
+  background-color: white;
+  padding: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#main > .root.home > .question-header .filters > button.active {
+  background-color: #666;
+  color: white;
+}
+
+#main > .root.home > .question-header .filters > button:hover {
+  background-color: #ddd;
+}
+
+#main > .root.home > .question-header .filters > button:not(:first-of-type) {
+  border-left: 0;
+}
+
+#main > .root.home > .question-item {
+  display: flex;
+  padding: 16px;
+  padding-top: 24px;
+  gap: 16px;
+  align-items: baseline;
+}
+
+#main > .root.home > .question-item > .stats {
+  font-size: 1rem;
+  color: #666;
+  flex: 1;
+  max-width: 100px;
+}
+
+#main > .root.home > .question-item > .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#main > .root.home > .question-item > .content > .tags {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#main > .root.home > .question-item > .content > .tags > button {
+  background-color: #666;
+  color: #f6f6f6;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#main > .root.home > .question-item > .content > h5 {
+  cursor: pointer;
+  color: #3961c6;
+}
+
+#main > .root.home > .question-item > .content > h5:hover {
+  text-decoration: underline;
+}
+
+#main > .root.home > .question-item > .content > h5:active {
+  color: #1f3772;
+}
+
+#main > .root.home > .question-item > .signature {
+  font-size: 1rem;
+  color: #666;
+  flex: 1;
+  max-width: 300px;
+}
+
+#main > .root.home > .question-item > .signature span {
+  font-weight: bold;
+  color: #b6132d;
+}
+
+#main > .root.home > .no-question {
+  border-bottom: 0;
+  padding: 24px;
+  padding-top: 48px;
+}

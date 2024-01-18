@@ -1,0 +1,93 @@
+#main > .root.question {
+  padding-bottom: 32px;
+}
+
+#main > .root.question > .title {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+}
+
+#main > .root.question > .title > h5 {
+  flex: 1;
+}
+
+#main > .root.question > .title > h5:first-of-type {
+  max-width: 125px;
+}
+
+#main > .root.question > .post {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+  padding-top: 0;
+  border-bottom: dotted 3px black;
+}
+
+#main > .root.question > .post > h5 {
+  flex: 1;
+  max-width: 125px;
+}
+
+#main > .root.question > .post > p {
+  flex: 1;
+  font-size: 1.2rem;
+}
+
+#main > .root.question > .post > div {
+  flex: 1;
+  max-width: 300px;
+  font-size: 1rem;
+  align-self: flex-end;
+  padding-bottom: 1rem;
+}
+
+#main > .root.question > .post > div > p:first-of-type {
+  color: #bb243c;
+  font-weight: bold;
+}
+
+#main > .root.question > .answer {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  padding: 24px;
+  border-bottom: dotted 3px black;
+}
+
+#main > .root.question > .answer > p {
+  flex: 1;
+  font-size: 1.2rem;
+}
+
+#main > .root.question > .answer > p > span.link {
+  color: #056bda;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#main > .root.question > .answer > p > span.link:hover {
+  color: #004187;
+}
+
+#main > .root.question > .answer > p > span.link:active {
+  color: #002247;
+}
+
+#main > .root.question > .answer > div {
+  flex: 1;
+  max-width: 300px;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+#main > .root.question > .answer > div > p:first-of-type {
+  color: #235e00;
+  font-weight: bold;
+}
+
+#main > .root.question > .comment {
+  padding: 16px;
+}

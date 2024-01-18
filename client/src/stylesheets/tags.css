@@ -1,0 +1,60 @@
+#main > .root.tags {
+  padding-bottom: 32px;
+}
+
+#main > .root.tags > .header {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+}
+
+#main > .root.tags > .header > h5:last-of-type {
+  flex: 1;
+  text-align: center;
+}
+
+#main > .root.tags > .content {
+  display: grid;
+  padding: 24px;
+  gap: 48px 36px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 800px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+#main > .root.tags > .content > .tag {
+  border: dotted 3px black;
+  padding: 16px;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+#main > .root.tags > .content > .tag > p {
+  text-align: center;
+}
+
+#main > .root.tags > .content > .tag > p:first-of-type {
+  cursor: pointer;
+  color: #3961c6;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#main > .root.tags > .content > .tag > p:first-of-type:hover {
+  color: #1f3772;
+}
+
+#main > .root.tags > .content > .tag > p:first-of-type:active {
+  color: #0d1731;
+}

@@ -1,0 +1,44 @@
+#main > .root.form {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  box-sizing: border-box;
+  max-width: 500px;
+  gap: 36px;
+}
+
+#main > .root.form > div.input {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#main > .root.form > div.input > textarea {
+  min-height: 200px;
+}
+
+#main > .root.form > div.input > p.description {
+  padding-left: 16px;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+#main > .root.form > div.input > p.error {
+  font-size: 1rem;
+  color: #b81932;
+}
+
+#main > .root.form > div.input > p.hidden {
+  display: none;
+}
+
+#main > .root.form > div:not(.input):last-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#main > .root.form > div:not(.input):last-of-type > p {
+  font-size: 1rem;
+  color: #b81932;
+}
